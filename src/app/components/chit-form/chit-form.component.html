@@ -1,24 +1,24 @@
-<app-modal>
-    <form class="chit-form">
+<app-modal (onPrimaryBtnClick)="onChitSave()">
+    <form class="chit-form" [formGroup]="chitForm">
         <mat-form-field class="example-form-field">
             <mat-label>Name</mat-label>
-            <input matInput type="text">
+            <input matInput type="text" formControlName="chitName">
         </mat-form-field>
         <mat-form-field class="example-form-field">
             <mat-label>Manager Name</mat-label>
-            <input matInput type="text">
+            <input matInput type="text" formControlName="managerName">
         </mat-form-field>
         <mat-form-field class="example-form-field">
             <mat-label>Total Chit Amount</mat-label>
-            <input matInput type="text">
+            <input matInput type="text" formControlName="amount">
         </mat-form-field>
         <mat-form-field class="example-form-field">
             <mat-label>Number of months</mat-label>
-            <input matInput type="text">
+            <input matInput type="text" formControlName="numberOfMonths">
         </mat-form-field>
         <mat-form-field class="example-form-field">
             <mat-label>Additional notes</mat-label>
-            <textarea matInput placeholder="Additional notes"></textarea>
+            <textarea matInput placeholder="Additional notes" formControlName="notes"></textarea>
         </mat-form-field>
     </form>
 </app-modal>

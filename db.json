@@ -1,0 +1,28 @@
+{
+  "chits": [
+    {
+      "id": "a004",
+      "chitName": "one",
+      "managerName": "kumari",
+      "amount": "100000000",
+      "numberOfMonths": "20",
+      "notes": "Hello World"
+    },
+    {
+      "id": "5dec",
+      "chitName": "two",
+      "managerName": "asdsad",
+      "amount": "dasdas",
+      "numberOfMonths": "asdas",
+      "notes": "dasdsad"
+    },
+    {
+      "id": "d509",
+      "chitName": "Three",
+      "managerName": "Chintu",
+      "amount": "1234567890",
+      "numberOfMonths": "12",
+      "notes": "sdkjhf dfkjhdf. sdf sdhfsdjhf asf sasdihfsdjhsjdfhwqr qt reoituewi bxcvxb "
+    }
+  ]
+}

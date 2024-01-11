@@ -1,6 +1,6 @@
 <mat-card class="carlist-container">
     <mat-selection-list role="list" multiple="false">
-        <mat-list-option hideSingleSelectionIndicator="false">Chinthapallilanka</mat-list-option>
-        <mat-list-option hideSingleSelectionIndicator="false">25k chitti</mat-list-option>
+        <mat-list-option *ngFor="let chit of (chits$ | async)" (click)="onChitSelect(chit)">{{
+            chit.chitName}}</mat-list-option>
     </mat-selection-list>
 </mat-card>
