@@ -1,0 +1,23 @@
+:host {
+  flex: 2;
+}
+
+.car-container {
+  height: 100%;
+}
+
+.chit-header {
+  margin: 1rem 3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.chit-header span {
+  font-size: 1.2rem;
+}
+
+.details-container {
+  display: flex;
+  height: calc(100% - 49px);
+}

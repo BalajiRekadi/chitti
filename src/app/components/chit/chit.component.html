@@ -1,0 +1,19 @@
+<mat-card class="car-container">
+    <div class="chit-header">
+        <span>Chit name</span>
+        <div>
+            <button mat-icon-button color="accent" aria-label="Edit icon" (click)="onChitEdit()">
+                <mat-icon aria-hidden="false" aria-label="Edit Chit icon" fontIcon="edit"></mat-icon>
+            </button>
+            <button mat-icon-button color="accent" aria-label="Add icon" (click)="onAddRecord()">
+                <mat-icon aria-hidden="false" aria-label="Add Record icon" fontIcon="add"></mat-icon>
+            </button>
+        </div>
+    </div>
+    <mat-divider></mat-divider>
+    <div class="details-container">
+        <app-details></app-details>
+        <mat-divider [vertical]="true"></mat-divider>
+        <app-records></app-records>
+    </div>
+</mat-card>

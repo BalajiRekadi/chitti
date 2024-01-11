@@ -1,0 +1,6 @@
+:host {
+  display: flex;
+  height: calc(100vh - 128px - 2rem);
+  margin: 1rem;
+  gap: 1rem;
+}

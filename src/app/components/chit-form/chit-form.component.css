@@ -1,0 +1,9 @@
+.chit-form {
+  display: flex;
+  flex-direction: column;
+  width: 50vw;
+}
+
+.chit-form textarea {
+  height: 15vh;
+}
